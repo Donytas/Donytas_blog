@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina padding por defecto */
+    background-color: #000000; /* Color de fondo */
+}
+
+header {
+    background: #f1f1f1; /* Color de fondo del header */
+    color: #e0e0e0; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+
+nav ul {
+    list-style: none; /* Elimina viñetas */
+    padding: 0; /* Elimina padding */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos en línea */
+    margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+nav a {
+    color: #ffffff; /* Color de los enlaces */
+    text-decoration: none; /* Elimina subrayado */
+}
+
+main {
+    padding: 20px; /* Espaciado interno del main */
+}
+
+section {
+    background: #ffffff; /* Color de fondo de las secciones */
+    margin: 20px 0; /* Espaciado entre secciones */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+footer {
+    text-align: center; /* Centra el texto */
+    padding: 10px 0; /* Espaciado interno */
+    background: #35424a; /* Color de fondo del footer */
+    color: #ffffff; /* Color del texto */
+    position: relative; /* Posicionamiento relativo */
+    bottom: 0; /* Alinea al fondo */
+    width: 100%; /* Ocupa todo el ancho */
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(240, 19, 19);
+    background-color: #fff0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #ff2600;
+}
+body, html {
+    height: 100%; /* Asegúrate de que el contenedor ocupe toda la altura */
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+p {
+    color: #ffffff; /* Cambia el color a un tono oscuro */
+}
+
+h1{
+    color: #ff0000;
+}
+h3{
+    color: #ff0000;
+}
